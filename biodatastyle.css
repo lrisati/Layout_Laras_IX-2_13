@@ -1,0 +1,50 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/bf/e8/3d/bfe83d7e5cff2ff6c26e2000d2eb0499.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    background-color: rgb(255, 8, 144);
+}
+h1{background-color: bisque;
+color: rgb(152, 12, 75) }
+
+img.photo{
+    width: 10px;
+    height: 10px;
+    
+}
+div.Info{
+    background-color: antiquewhite;
+    width: 800px;
+    border-radius: 10%;
+    border: 3px solid rgb(163, 10, 97)
+}
+
+
+    .image-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    .Indomie {
+      width: 30%; 
+      text-align: center;
+    }
+
+    .image-container.left { text-align: left; }
+    .image-container.right { text-align: right; }
+
+    .hover-img {
+      width: 100%;       
+      max-width: 250px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .hover-img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
